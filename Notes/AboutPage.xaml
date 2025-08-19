@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.AboutPage"
+             Title="AboutPage">
+    <VerticalStackLayout>
+        <Image
+         Source="git.hub.png"
+         HeightRequest="185"
+         Aspect="AspectFit"
+         SemanticProperties.Description="Botao GitHub" />
+            
+         <Label
+             Padding="0,60"
+         Text="Notes App v1.0"
+          VerticalOptions="Center" 
+          HorizontalOptions="Center" />
+        
+        <Button
+          Margin="0,60"
+            x:Name="GitHub"
+            Text="Acesse meu Git" 
+            SemanticProperties.Hint="Counts the number of times you click"
+            HorizontalOptions="Center" 
+            Clicked="AcessarGit"/>
+        <Label
+            Text="Desenvolvido por: Victor Picciutti"
+            VerticalOptions="End"
+            HorizontalOptions="Center"/>
+
+    </VerticalStackLayout>
+</ContentPage>
