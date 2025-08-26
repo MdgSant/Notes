@@ -11,4 +11,4 @@ public partial class AboutPage : ContentPage
 
         await Launcher.Default.OpenAsync("https://github.com/Victor-Picciutti");
     }
-}
+} 
