@@ -1,4 +1,5 @@
 ﻿namespace Notes
+  //atualizeiooo
 {
     public partial class MainPage : ContentPage
     {
@@ -19,8 +20,6 @@
             String conteudo = CaixaEditor.Text;
             File.WriteAllText(caminho, conteudo);
             DisplayAlert("Arquivo salvo", $"Arquivo {conteudo} foi salvo com sucesso", "Ok");
-            //DisplayAlert("Caminho: ", $"{caminho}", "Ok");
-
         }
 
         private void Apagar_Clicked(object sender, EventArgs e)
@@ -39,8 +38,6 @@
 
         private async void AbrirGerenciador(object sender, EventArgs e)
         {
-
-            //await Launcher.Default.OpenAsync($"file:///C:/Users/etechas/AppData/Local/Packages/com.companyname.notes_9zz4h110yvjzm/LocalState");
             await Launcher.Default.OpenAsync($"{caminhoDaPasta}");
         }
 
