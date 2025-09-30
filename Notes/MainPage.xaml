@@ -14,7 +14,7 @@
          
 
          <HorizontalStackLayout
-             Padding="600,0">
+             Padding="770,0">
                 <Button
         x:Name="Salvar"
         Text="Salvar"

@@ -24,7 +24,7 @@
             HorizontalOptions="Center" 
             Clicked="AcessarGit"/>
         <Label
-            Text="Desenvolvido por: Victor Picciutti"
+            Text="Desenvolvido por: Miguel Santana"
             VerticalOptions="End"
             HorizontalOptions="Center"/>
 

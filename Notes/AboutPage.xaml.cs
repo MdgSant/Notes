@@ -9,6 +9,6 @@ public partial class AboutPage : ContentPage
     private async void AcessarGit(object sender, EventArgs e)
     {
 
-        await Launcher.Default.OpenAsync("https://github.com/Victor-Picciutti");
+        await Launcher.Default.OpenAsync("https://github.com/MdgSant");
     }
 } 
